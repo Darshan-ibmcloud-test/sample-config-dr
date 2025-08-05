@@ -7,6 +7,12 @@ app:
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
   version: ""
+
+  maven:
+    groupId: arturdzm
+    artifactId: net-test
+    version: 1.0
+    type: war
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
