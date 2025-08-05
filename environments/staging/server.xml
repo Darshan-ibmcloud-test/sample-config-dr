@@ -1,0 +1,11 @@
+<server>
+    <featureManager>
+        <feature>servlet-4.0</feature>
+        <feature>jsp-2.3</feature>
+        <feature>localConnector-1.0</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" />
+
+    <application location="net-test.war" type="war" contextRoot="/" />
+</server>
