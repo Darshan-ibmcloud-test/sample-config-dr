@@ -8,6 +8,12 @@ app:
   # is not deployed.
   version: ""
   
+  maven:
+    groupId: arturdzm
+    artifactId: net-test
+    version: 1.0
+    type: war
+  
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
   #maven:
