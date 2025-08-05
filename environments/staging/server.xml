@@ -4,7 +4,7 @@
         <feature>jsp-2.3</feature>
     </featureManager>
 
-    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" />
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9080" />
 
-    <application location="net-test.war" type="war" contextRoot="/net-test" />
+    <application location="net-test.war" type="war" contextRoot="/" />
 </server>
